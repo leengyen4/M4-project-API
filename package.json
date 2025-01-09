@@ -1,5 +1,5 @@
 {
-  "name": "Mod-4-API",
+  "name": "authenticate-me",
   "version": "1.0.0",
   "description": "## Database Schema Design",
   "main": "psql-setup-script.js",
