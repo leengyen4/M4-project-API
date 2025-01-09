@@ -1,0 +1,36 @@
+.review-box {
+    text-align: left;
+}
+
+.date {
+    margin: 0;
+    font-size: .9rem;
+    color: black;
+    opacity: .5;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.review-p {
+    margin-top: 5px;
+    color: rgb(34, 34, 34);
+}
+
+.modal-button {
+    background-color: rgb(79, 79, 79);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.modal-button:hover {
+    background-color: rgb(45, 45, 45);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
