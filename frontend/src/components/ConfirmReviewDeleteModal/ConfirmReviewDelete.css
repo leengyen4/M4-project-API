@@ -1,0 +1,47 @@
+.review-delete {
+    padding: 20px;
+    text-align: center;
+}
+
+.delete-button {
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+#button-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-wrap button {
+    margin: 10px;
+}
+
+#delete-button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#cancel-delete {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
