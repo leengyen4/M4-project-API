@@ -1,5 +1,5 @@
 # M4-project-API
-# `Mod 4 Portfolio Project`
+# `Mod 4 Project`
 
 ## Database Schema Design
 
