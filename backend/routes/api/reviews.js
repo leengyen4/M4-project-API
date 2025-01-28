@@ -40,7 +40,7 @@ router.get('/current', restoreUser, requireAuth, async (req, res) => {
                     'id', 'ownerId', 'address', 'city', 'state', 'country', 'lat', 'lng', 'name', 'price',
                     [Sequelize.literal(`(
                         SELECT url
-                        FROM airbnb_backend."SpotImages"
+                        FROM airbnb_schema."SpotImages"
                         WHERE "SpotImages"."spotId" = "Spot"."id" AND
                         "SpotImages"."preview" = TRUE
                         LIMIT 1
